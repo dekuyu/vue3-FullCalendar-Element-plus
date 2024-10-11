@@ -1,0 +1,31 @@
+{
+  "name": "vue3-fullcalendar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/multimonth": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "dayjs": "^1.11.13",
+    "@element-plus/icons-vue": "^2.1.0",
+    "element-plus": "^2.8.4",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.0.2"
+  }
+}
